@@ -24,7 +24,7 @@ respostas.forEach(function(resposta){
     const botao = document.getElementById(`card`+x);
     const perguntaOriginal = botao.value;
     let virado = false;
-    botao.addEventListener("click", function(){
+    botao.addEventListener("submit", function(){
         virado = !virado;
 
         if(virado){
