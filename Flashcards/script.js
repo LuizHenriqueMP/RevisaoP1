@@ -20,8 +20,6 @@ const repostas = ["A principal função do HTML é estruturar e organizar o cont
 let x = "1";
 let virado = false;
 
-const respostas = [];
-
 respostas.forEach(function(resposta){
 
     if(virado = true){
@@ -33,5 +31,5 @@ respostas.forEach(function(resposta){
     botao.addEventListener("click", function(event){
         virado  = !virado;
     });
-});
 
+});
