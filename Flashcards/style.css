@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container, html, body{
+    height: 100%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+input[type="button"]{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}

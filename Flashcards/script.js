@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 const repostas = ["A principal função do HTML é estruturar e organizar o conteúdo de uma página web, definindo o seu significado e a sua estrutura",
     "Tem que criar uma tag chamada <img> e em seu atributo src colocar o caminho da imagem.",
     "_blank, _parent, _self e _top", 
@@ -18,7 +17,6 @@ const repostas = ["A principal função do HTML é estruturar e organizar o cont
     "Para percorrer todos os elementos de um Array.",
     "São funções escritas de forma mais resumida e prática, caracterizadas pelo uso de => que se assemelha a uma seta."
 ]
-=======
 let x = "1";
 let virado = false;
 
@@ -36,4 +34,4 @@ respostas.forEach(function(resposta){
         virado  = !virado;
     });
 });
->>>>>>> Stashed changes
+
