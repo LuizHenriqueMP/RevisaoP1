@@ -17,19 +17,20 @@ const repostas = ["A principal função do HTML é estruturar e organizar o cont
     "Para percorrer todos os elementos de um Array.",
     "São funções escritas de forma mais resumida e prática, caracterizadas pelo uso de => que se assemelha a uma seta."
 ]
-let x = "1";
+let x = 0;
 let virado = false;
 
 respostas.forEach(function(resposta){
 
-    if(virado = true){
-        botao.value = respostas[x-1];
-    }
+    const botao = document.getElementById(`card`+x);
 
-    const botao = document.getElementById(x);
+    botao.addEventListener("click", function(){
+        virado = !virado;
 
-    botao.addEventListener("click", function(event){
-        virado  = !virado;
+        if(virado){
+            botao.value = respostas[x];
+        }
     });
 
+    x++;
 });
